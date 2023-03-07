@@ -1,0 +1,88 @@
+
+*{
+  font-family: 'Syne', sans-serif;
+  color:black
+}
+
+/* header */
+
+.header{
+  text-transform: uppercase;
+  height: 80px;
+}
+.header>div{
+  padding-top: 30px;
+}
+.chn{
+  font-size: 10px;
+}
+/* main */
+.mainSect{
+  margin-bottom: 100px;
+  text-transform: uppercase;
+
+}
+.mainSect>div>h1{
+  font-family: 'Six Caps',sans-serif !important;
+  font-size: 5rem;
+  cursor: pointer;
+}
+.mainSect>div>h1:hover{
+  color:rgb(170, 65, 34);
+
+}
+.mainSect>div>span{
+ cursor: pointer;
+}
+.mainSect>div>span:hover{
+  color:rgb(170, 65, 34);
+}
+img:hover{
+  animation : tada;
+  animation-duration: 2s;
+}
+
+
+/* footer */
+#sparrow{
+  margin-top: 80px;
+  display: flex;
+}
+#last{
+  border-left: 2px solid black;
+}
+.lst{
+  list-style-type: none;
+}
+.lst>li>a{
+  text-decoration: none;
+  color:black;
+}
+.lst>li>a:hover{
+  color:rgb(170, 65, 34);
+
+}
+.footerSection{
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+#header1{
+  text-transform: uppercase;
+  font-family: 'Six Caps',sans-serif !important;
+  font-size: 10rem;
+}
+.dv{
+  padding-top: 250px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+.dv{
+  padding-top: 50px;
+ }
+
+}

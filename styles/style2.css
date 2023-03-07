@@ -1,0 +1,89 @@
+body{
+  background-image: url("../images/main-home-team-6.jpg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  /* background-position: right; */
+  background-position-y: top;
+  background-position-x: right;
+  background-attachment: fixed;
+}
+*{
+  font-family: 'Syne', sans-serif;
+  color:black
+}
+
+.header{
+  text-transform: uppercase;
+  height: 80px;
+}
+.header>div{
+  padding-top: 30px;
+}
+.chn{
+  font-size: 10px;
+}
+.main{
+  max-width: 50%;
+}
+.large{
+  margin-top: 70px;
+  font-size: 7rem;
+  text-transform: uppercase;
+  font-family: 'Six Caps',sans-serif;
+}
+
+.brand{
+  padding-top: 100px;
+}
+.big{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-family: 'Six Caps',sans-serif;
+}
+.six>ul{
+  list-style-type: none;
+}
+.six>ul>li{
+  line-height: 50px;
+}
+.six>ul>li>a{
+  text-decoration: none;
+  color: black;
+}
+.six>ul>li>a:hover{
+  color:rgb(170, 65, 34)
+}
+.small>ul{
+  list-style-type: none;
+}
+.small>ul>li>a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+
+}
+.small>ul>li>a:hover{
+  color:rgb(170, 65, 34)
+}
+#bton{
+  margin: 80px 0px ;
+  padding: 5px 25px;
+}
+@media screen and (max-width: 768px) {
+  body{
+    background-image: url("../images/main-home-team-6.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 786px;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 425px) {
+  body{
+    background-image: url("../images/main-home-team-6.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 425px;
+    background-attachment: fixed;
+  }
+}
