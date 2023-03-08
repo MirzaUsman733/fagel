@@ -28,7 +28,11 @@ body{
   max-width: 1200px;
 }
 .only{
+  margin-top: 100px;
   max-width: 1200px;
+  animation: pulse;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 #oho{
   position: absolute;
@@ -44,10 +48,8 @@ body{
   font-family: 'Six Caps',sans-serif !important;
   text-align: center;
   justify-content: center;
-  /* position: absolute;
-  top:7%;
-  left:10%;
-  right: 10%; */
+  animation: backInUp;
+  animation-duration: 2s;
 }
 #btn{
   text-align: center;
