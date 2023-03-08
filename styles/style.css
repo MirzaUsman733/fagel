@@ -30,8 +30,8 @@ body{
 .only{
   margin-top: 100px;
   max-width: 1200px;
-  animation: pulse;
-  animation-duration: 5s;
+  animation: shakeY;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 #oho{
@@ -267,7 +267,7 @@ body{
     max-width: 1000px;
   }
   #hero2{
-    max-width: 1000px;
+    width: 1000px;
   }
   .photos{
     max-width: 1000px;
